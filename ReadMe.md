@@ -19,6 +19,14 @@ Plan:
 Apply:
 ----
     terraform apply
+# Check ELB comes to InService or Not:
+![image](https://user-images.githubusercontent.com/58024415/94275970-3b4e7a00-ff65-11ea-92a9-5fe0834571e3.png)
+
+# Check out in UI:
+http://web-elb-499150935.us-east-1.elb.amazonaws.com/
+
+![image](https://user-images.githubusercontent.com/58024415/94276120-72bd2680-ff65-11ea-9507-44b59f5a7bf5.png)
+
 Goto Autoscaling group and check Autoscaling conditions attached to our autoscaling. 
 
 Now we need to increase CPU Utilization using below command
